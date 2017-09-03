@@ -5,14 +5,14 @@ body {
 	width:1200px;
 	background:#1045a3;
 	color:yellow;
-	height:60px;
+	height:110px;
 	margin:0 auto;
-	font-size:42px;
+	font-size:85px;
 	text-align:center;
 }
 #header a.logo{
 	font-family:Stanford,Source Serif Pro,Georgia,Times,Times New Roman,serif!important;
-	line-height:59px;
+	line-height:105px;
 }
 #index{
 	width:1200px;
@@ -68,8 +68,7 @@ body {
     border: 2px ridge #1045a3;
 }
 #key table{
-	width:500px;
-	text-align:center;
+	width:1000px;
 	font-size:20px;
 }
 #key img{
