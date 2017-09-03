@@ -49,24 +49,20 @@ body {
 	border:2px solid yellow;
 }
 #body h1{
-	margin:10px;
-	padding:27px 0 11px 565px;
+	margin:10px auto;
+	padding-top:27px;
 	font-weight:bold;
 	font-size:34px;
 	text-shadow: 1px 1px 3px black;
+	text-align:center;
 }
 #body ul{
 	padding-left:5px;
 	margin:0 auto;
 	list-style-type:none;
 }
-#body li{
-	padding:12px 0 0 15px;
-	font-weight:bold;
-	font-size:22px;
-}
 #key {	
-    line-height: 25px;
+    line-height: 40px;
     margin: 6px 15px 0 15px;
     padding: 10px;
     border: 2px ridge #1045a3;
@@ -75,6 +71,9 @@ body {
 	width:500px;
 	text-align:center;
 	font-size:20px;
+}
+#key img{
+	height:90px;
 }
 #test{
 	padding: 15px;
@@ -94,6 +93,7 @@ body {
 	font-weight:bold;
 	list-style-type:decimal;
 	padding-left:0;
+	line-height:40px
 }
 #test a{
 	padding-left:31px;
@@ -109,11 +109,6 @@ body {
 	line-height:32px;
 	font-size:21px;
 }
-a:hover.ans{
-	color:red;
-	font-style:italic;
-	cursor:pointer;
-}
 #content{
 	padding-left:535px;
 	margin-top:22px;
@@ -121,7 +116,6 @@ a:hover.ans{
 	font-size:21px;
 }
 #content li{
-	padding-left:0;
 	list-style-type:disc;
 	font-weight:bolder;
 }
@@ -134,6 +128,20 @@ a:hover.ans{
 #content1 li{
 	padding-left:0;
 	list-style-type:disc;
+}
+#content1 div.part{
+	float:left;
+	border:1px solid #1045a3
+}
+#content1 td{
+	text-align:center;
+	width:185px;
+	font-size:20px;
+}
+a:hover.ans{
+	color:red;
+	font-style:italic;
+	cursor:pointer;
 }
 a.keyword{	
     text-decoration: underline;
@@ -170,3 +178,15 @@ button.but{
 	height:45px;
 }
 button:hover.but{background-color:#2e6da4;}
+table.time{
+	height:200px; 
+	width:600px;
+	text-align:center;
+	margin:27px auto;
+	margin-bottom:70px;
+}
+p.pos_fixed{
+    position:fixed;
+    bottom:5px;
+    right:5px;
+}
